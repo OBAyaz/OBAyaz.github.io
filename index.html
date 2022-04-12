@@ -5,6 +5,9 @@
     <title>
         Mimosa Networks
     </title>
+
+    <!-- <meta name="viewport" content="width=device-width,initial-scale=1.0"> -->
+
     <link rel="stylesheet" type="text/css" media="all" href="main.css" />
     <script src="chunk-1.js"></script>
   </head>
@@ -12,10 +15,60 @@
   <body>
     <div id="content">
       <h2>Welcome =) </h2>
-         
+
+      <div class="flex-container">
+        <div class="flex-item">
+          Box-1
+        </div>
+        <div class="flex-item">
+          Box-2
+        </div>
+        <div class="flex-item">
+          Box-3
+        </div>
+      </div>
+
+      <div style="height: 500px">
+
+      </div>
+
+      <div style="width: 350px; padding: 20px; border: 1px solid grey;">
+        <button onclick="getData2()">
+          Click Me!
+        </button>
+      </div>
+
+      <div>
+        <h1>Result:</h1>
+        <p id="response2"></p>
+      </div>
+
+      <div style="height: 500px">
+
+      </div>
+
+      <div style="width: 350px; padding: 20px; border: 1px solid grey;">
+        <button onclick="getData()">
+          Click Me!
+        </button>
+      </div>
+
+      <div>
+        <h1>Result2:</h1>
+        <p id="response"></p>
+      </div>
+
+      <div style="height: 500px">
+
+      </div>
+
     </div>
     <script>
       console.log("Hello World")
+      for(var i = 0; i<10; i++) {
+        var b = i
+        c = b
+      }
     </script>
   </body>
   <script src="chunk-2.js"></script>
